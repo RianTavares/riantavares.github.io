@@ -10,6 +10,7 @@ import Jobs from '../components/Jobs';
 import Skills from '../components/Skills';
 import Portfolio from '../components/Portfolio';
 import Resume from '../components/Resume';
+import Slide from "../components/JobsSlide";
 
 //imgs
 import me from '../assets/imgs/rian-tavares.png';
@@ -197,7 +198,7 @@ function App() {
           <div className="sec-portfolio__container">
             <h1 className="sec-portfolio__container__title">{l[selectedLenguage].section6.title}</h1>
 
-            <Portfolio
+            {/* <Portfolio
               pimg={rodobravo}
               ptitle={l[selectedLenguage].section6.portfolio1.title}
               ptext={l[selectedLenguage].section6.portfolio1.text}
@@ -224,7 +225,9 @@ function App() {
               fotoOrder={l[selectedLenguage].section6.portfolio3.fotoOrder}
               textOrder={l[selectedLenguage].section6.portfolio3.textOrder}
             />
-             
+              */}
+            <Slide />
+
           </div>
         </section>
       </section>

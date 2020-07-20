@@ -1,0 +1,28 @@
+.slide {
+
+  .slick-prev {
+    left: 80px;
+  }
+
+  .slick-next {
+    right: 80px;
+  }
+
+  .slick-prev, .slick-next {
+    top: 45%;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 40px;
+    color: $DETAILS_GREEN;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $DETAILS_GREEN;
+  }
+
+  .slick-dots button::before {
+    font-size: 18px;
+  }
+
+}
